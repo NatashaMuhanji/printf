@@ -7,11 +7,11 @@ unsigned int convert_ubase(buffer_t *output,
 		unsigned char flags, int wid, int prec);
 
 /**
- * convert_sbase - Converts a signed long to an inputted base and stores
+ * convert_sbase -This converts  signed long to an inputted base and stores
  *                 the result to a buffer contained in a struct.
- * @output: A buffer_t struct containing a character array.
- * @num: A signed long to be converted.
- * @base: A pointer to a string containing the base to convert to.
+ * @output:it is a buffer_t struct that contains a character array.
+ * @num: it is the signed long that will be converted
+ * @base: it points to the string that contains the base to convert to.
  * @flags: Flag modifiers.
  * @wid: A width modifier.
  * @prec: A precision modifier.
