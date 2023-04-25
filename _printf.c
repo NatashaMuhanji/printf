@@ -5,8 +5,8 @@ int run_printf(const char *format, va_list args, buffer_t *output);
 int _printf(const char *format, ...);
 
 /**
- * cleanup - Peforms cleanup operations for _printf.
- * @args: A va_list of arguments provided to _printf.
+ * cleanup - where the ceanup operations for printf are carried out.
+ * @args: Has the list of all arguments (va_list).
  * @output: A buffer_t struct.
  */
 void cleanup(va_list args, buffer_t *output)
