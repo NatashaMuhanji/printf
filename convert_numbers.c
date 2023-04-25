@@ -24,7 +24,7 @@ unsigned int convert_o(va_list args, buffer_t *output,
 unsigned int convert_di(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len)
 {
-	long int d, copy;
+	long int d, copy; 
 	unsigned int ret = 0, count = 0;
 	char pad, space = ' ', neg = '-', plus = '+';
 
